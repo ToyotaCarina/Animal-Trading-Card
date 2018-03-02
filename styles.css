@@ -1,0 +1,57 @@
+/**
+ * styles.css
+ *
+ * These are the styles for different parts of the animal card.
+ *
+ * Index
+ * - Card Title
+ * - Card Image
+ * - Card Content
+ *  - Interesting fact
+ *  - General Facts
+ *  - Description
+ */
+
+/* Card */
+
+.card {
+  width: 300px;
+  padding: 12px;
+  margin: auto;
+  box-shadow: 5px 5px 2px #e6e6e6;
+}
+
+.card, .card-content {
+  border-style: solid;
+  border-color: #cecece;
+  border-width: thin;
+  padding: 0.7em;
+  padding-top: 0;
+}
+
+/* Card Image*/
+
+.card-img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 0.8em;
+}
+
+/* Card content*/
+
+.card-content {
+  font-size: 13px;
+}
+
+.interesting-facts {
+  font-style: italic;
+}
+
+.general-facts {
+  list-style: none;
+  padding: 0;
+}
+
+.general-facts li span {
+  font-weight: bold;
+}
